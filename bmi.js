@@ -9,7 +9,7 @@ let button = document.getElementById("button");
     let heights = height / 100;
     
     let bmi = weight / (heights * heights);
-    document.getElementById("ansb").value = bmi.toFixed(3);
+    document.getElementById("ansb").value = bmi.toFixed(2);
                 
     if(bmi < 18.5){
         document.getElementById("statb").value = "Underweight";
